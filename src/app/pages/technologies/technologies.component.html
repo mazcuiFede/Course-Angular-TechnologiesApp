@@ -1,0 +1,9 @@
+<h1>Technologies <small>Backend and frontEnd</small></h1>
+
+<hr />
+
+<div class="row">
+    <div *ngFor="let technology of technologies" class="col-sm-4 mb-3">
+        <app-technology-card [technology]="technology"></app-technology-card>
+    </div>
+</div>
